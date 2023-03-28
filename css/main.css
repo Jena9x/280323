@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+
+header{
+	width: 100%;height: auto
+}
+.logo{
+	width: 100%;line-height: 35px;text-align: center
+}
+.menu ul{
+	margin: 0;padding: 0;list-style: none;display: flex;justify-content: center;
+	width: 100%;line-height: 35px
+}
+.menu ul li a{
+	text-decoration: none;color: #666666;display: block;border-radius: 5px
+}
+.menu ul li a:hover{
+	color: white;background-color: rgba(148,83,54,1.00)
+}
+.icon{
+	width: 100%;height: auto;text-align: center;
+}
+
+/*---S1---*/
+#s1-new-arrival .vien{
+	border: 1px solid darkred;padding: 15px;position: relative;overflow: hidden
+}
+#s1-new-arrival .icon{
+	position: absolute;width: 80%;height: 40px;left: 12%;top:-15%;display: flex;justify-content: space-between;transition: all 1s;
+}
+#s1-new-arrival .icon a{
+	widows: 40px;height: 38px;background-color: darkred;color: white;padding: 10px;border-radius: 50%;display: flex;justify-content: center;align-items: center;text-decoration: none
+}
+#s1-new-arrival .icon a:hover{
+	background-color: rgba(255,255,255,0.7);color: darkred
+}
+#s1-new-arrival .vien:hover .icon{
+	top:50%;
+}
+
+/*---S2---*/
+#s2-product-feature{
+	position: relative;background-image: url("../images/bg2.png");width: 100%;min-height: 700px;background-repeat: no-repeat;background-position:bottom ;background-size: cover;
+}
+.vien-t{
+	width: 100%;height: auto; border: 2px solid white;text-align: center;padding: 20px;color: darkred
+}
+.vien-t a{
+	text-decoration: none;color: darkred;display: block;padding: 5px
+}
+.vien-t a:hover{
+	background-color: darkred;color: white
+}
+
+/*---S3---*/
+.bai-viet{
+	width: 100%;height:auto;display: flex;align-items: center
+}
+.noi-dung{
+	width: 50%;margin: 10px
+}
+.blog{
+	width: 50%;margin: 10px
+}
+
+/*---S4---*/
+#s4-contacr-us{
+	width: 100%;height: 500px;background-image: url("../images/Banner2.png");background-position: center center;background-repeat: no-repeat;background-size: cover
+}
+.vien-s4{
+	padding: 30px;border: 1px solid gray;box-shadow: 5px 5px 10px
+}
+.form-control{
+	padding: 5px;font-style: italic;margin-bottom: 8px; width: 100%
+}
